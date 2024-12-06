@@ -1,6 +1,4 @@
-import Image from "next/image";
 import SearchForm from "@/components/SearchForm";
-import { auth } from "@/auth";
 import StartupCard, { StartupTypeCard } from "@/components/StartupCard";
 import { STARTUP_QUERY } from "@/sanity/lib/queries";
 import { sanityFetch, SanityLive } from "@/sanity/lib/live";
@@ -24,7 +22,7 @@ export default async function Home({
         </h1>
         <p className="sub-heading !max-w-3xl ">
           Submit Ideas, Vote on Pitches, and Get Noticed in Virtual Competitions
-        </p>
+        </p>uu
         <SearchForm query={query} />
       </section>
 
